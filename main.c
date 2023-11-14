@@ -2,6 +2,6 @@
 
 int main(void)
 {
-  _printf("This is a long simple statement that tests how my custom printf function would recognize the end of a string\n");
+  _printf("Omar");
   return (0);
 }
