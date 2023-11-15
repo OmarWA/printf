@@ -1,31 +1,3 @@
-<<<<<<< HEAD
-#include "main.h"
-
-int main(void)
-{
-
-
-
-  _printf("Omar %c %s %%", 'W', "Ahmed");
-  
-  /* int iterator = 0;
- 
-  char mystring[2048];
-
-  while (iterator <2048)
-    {
-      mystring[iterator] = '~';
-      iterator++;
-    }
-
-  iterator = 0;
-  while (iterator < 2048)
-    {
-      printf("%c\n", mystring[iterator]);
-      iterator++;
-      }*/
-  return (0);
-=======
 #include <limits.h>
 #include <stdio.h>
 #include "main.h"
@@ -69,5 +41,5 @@ int main(void)
     _printf("Unknown:[%r]\n");
     printf("Unknown:[%r]\n");
     return (0);
->>>>>>> 7a69ceece9840de752bbf26de5aaf5c2837e03d1
+
 }
