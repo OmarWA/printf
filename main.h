@@ -2,9 +2,9 @@
 #define MAIN_H
 #include <stdarg.h>
 #include <stdio.h>
-<<<<<<< HEAD
+
 #include <stdarg.h>
-=======
+
 #include <unistd.h>
 
 #define UNUSED(x) (void)(x)
@@ -41,7 +41,7 @@ struct fmt
  * @fm_t: The function associated.
  */
 typedef struct fmt fmt_t;
->>>>>>> 7a69ceece9840de752bbf26de5aaf5c2837e03d1
+
 
 int _printf(const char *format, ...);
 int handle_print(const char *fmt, int *i,
